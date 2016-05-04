@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-04T03:59:21.285Z</updated>
+  <updated>2016-05-04T14:06:36.543Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JQuery showLoading插件使用心得</title>
+    <link href="http://yoursite.com/2016/05/05/JQuery%E5%8A%A0%E8%BD%BD%E5%8A%A8%E7%94%BBshowLoadingg%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
+    <id>http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/</id>
+    <published>2016-05-04T21:32:11.000Z</published>
+    <updated>2016-05-04T14:06:36.543Z</updated>
+    
+    <content type="html">&lt;!-- excerpt --&gt;&lt;/p&gt;
+&lt;p&gt;最近搞了一个Spring MVC的网站，使用的是JSP页面，在前端页面上，我希望做到，提交一个表单的同时不让用户点击其他的按钮，我希望能在提交数据的同时给出一个遮罩的loading动画，于是，上网找了很多插件，最后觉得找到了一个不错的，就是JQuery的showLoading插件。&lt;/p&gt;
+&lt;h6 id=&quot;先来一个效果图&quot;&gt;&lt;a href=&quot;#先来一个效果图&quot; class=&quot;headerlink&quot; title=&quot;先来一个效果图&quot;&gt;&lt;/a&gt;先来一个效果图&lt;/h6&gt;&lt;p&gt;&lt;img src=&quot;http://7xsegt.com1.z0.glb.clouddn.com/showLoading-1.png&quot; alt=&quot;showLoadin图片加载失败&quot;&gt;&lt;/p&gt;
+&lt;h6 id=&quot;使用方法&quot;&gt;&lt;a href=&quot;#使用方法&quot; class=&quot;headerlink&quot; title=&quot;使用方法&quot;&gt;&lt;/a&gt;使用方法&lt;/h6&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://codepen.io/jasondavis/pen/fAzcI&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方下载&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;在你的项目中引入对应的资源，主要有以下两个文件&lt;blockquote&gt;
+&lt;p&gt;showLoading.css 和 jquery.showLoading.min.js&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在页面中引入上面两个文件&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;/css/showLoading.css&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;rel&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;media&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;screen&quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;/js/jquery/jquery.showLoading.min.js&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;undefined&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在你的页面中声明一个想要用来遮罩的容器，比如自己的一个div，如果需要全屏的话，推荐直接选择body标签即可。&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;loading&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; ...&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在JS中调用showLoading()和hideLoading()方法。&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;jQuery(&#39;#loading&#39;).showLoading();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;jQuery(&#39;#loading&#39;).hideLoading();&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;修改Loading的动画图标，可以修改为自己的gif动画&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在showLoading.css中修改样式中的路径即可，如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;.loading-indicator &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	height: 80px;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	width: 80px;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	background: url( &#39;/img/loading.gif&#39; );  //修改此处即可。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	background-repeat: no-repeat;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	background-position: center center;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要介绍了JQuery的showLoading插件的使用方法&lt;br&gt;
+    
+    </summary>
+    
+      <category term="jquery" scheme="http://yoursite.com/categories/jquery/"/>
+    
+    
+      <category term="showLoading" scheme="http://yoursite.com/tags/showLoading/"/>
+    
+      <category term="jquery" scheme="http://yoursite.com/tags/jquery/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo FAQ(更新至2016-05-04)</title>

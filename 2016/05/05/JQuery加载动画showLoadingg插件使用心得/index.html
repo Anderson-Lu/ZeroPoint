@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Anderson Lu&#39;s Blog">
-    <title>Hexo FAQ(更新至2016-05-04) - Anderson Lu&#39;s Blog</title>
+    <title>JQuery showLoading插件使用心得 - Anderson Lu&#39;s Blog</title>
     <meta name="author" content="Anderson Lu">
     
         <meta name="keywords" content="Anderson,luxueyan.me,">
@@ -15,18 +15,18 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="Q1：部署错误：Error: spawn git ENOENT">
+    <meta name="description" content="主要介绍了JQuery的showLoading插件的使用方法">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Hexo FAQ(更新至2016-05-04)">
-<meta property="og:url" content="http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/index.html">
+<meta property="og:title" content="JQuery showLoading插件使用心得">
+<meta property="og:url" content="http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/index.html">
 <meta property="og:site_name" content="Anderson Lu's Blog">
-<meta property="og:description" content="Q1：部署错误：Error: spawn git ENOENT">
-<meta property="og:image" content="http://7xsegt.com1.z0.glb.clouddn.com/xiaolutongxue%2Fimg%2F232323sadf.png">
-<meta property="og:updated_time" content="2016-05-04T03:59:21.285Z">
+<meta property="og:description" content="主要介绍了JQuery的showLoading插件的使用方法">
+<meta property="og:image" content="http://7xsegt.com1.z0.glb.clouddn.com/showLoading-1.png">
+<meta property="og:updated_time" content="2016-05-04T14:06:36.543Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo FAQ(更新至2016-05-04)">
-<meta name="twitter:description" content="Q1：部署错误：Error: spawn git ENOENT">
-<meta name="twitter:image" content="http://7xsegt.com1.z0.glb.clouddn.com/xiaolutongxue%2Fimg%2F232323sadf.png">
+<meta name="twitter:title" content="JQuery showLoading插件使用心得">
+<meta name="twitter:description" content="主要介绍了JQuery的showLoading插件的使用方法">
+<meta name="twitter:image" content="http://7xsegt.com1.z0.glb.clouddn.com/showLoading-1.png">
     
     
         
@@ -35,8 +35,8 @@
         <meta property="og:image" content="http://7xsegt.com1.z0.glb.clouddn.com/avatar.png"/>
     
     
-        <meta property="og:image" content="http://7xsegt.com1.z0.glb.clouddn.com/xiaolutongxue%2Fimg%2F232323sadf.png"/>
-        <meta class="swiftype" name="image" data-type="enum" content="http://7xsegt.com1.z0.glb.clouddn.com/xiaolutongxue%2Fimg%2F232323sadf.png" />
+        <meta property="og:image" content="http://7xsegt.com1.z0.glb.clouddn.com/JQuery"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://7xsegt.com1.z0.glb.clouddn.com/JQuery" />
     
     
     
@@ -206,19 +206,19 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            Hexo FAQ(更新至2016-05-04)
+            JQuery showLoading插件使用心得
         </h1>
     
     <div class="post-meta">
-    <time itemprop="datePublished" content="Fri Apr 15 2016 20:55:11 GMT+0800">
+    <time itemprop="datePublished" content="Thu May 05 2016 05:32:11 GMT+0800">
 	
-		    2016/04/15 08:55:11
+		    2016/05/05 05:32:11
     	
     </time>
     
         <span>发布在 </span>
         
-    <a class="category-link" href="/categories/hexo/">hexo</a>
+    <a class="category-link" href="/categories/jquery/">jquery</a>
 
 
     
@@ -227,14 +227,30 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <h6 id="Q1：部署错误：Error-spawn-git-ENOENT"><a href="#Q1：部署错误：Error-spawn-git-ENOENT" class="headerlink" title="Q1：部署错误：Error: spawn git ENOENT"></a>Q1：部署错误：Error: spawn git ENOENT</h6><a id="more"></a>
-<p><img src="http://7xsegt.com1.z0.glb.clouddn.com/xiaolutongxue%2Fimg%2F232323sadf.png" alt="spawn git ENOENT"></p>
-<p><strong>报错原因：</strong> 没有使用 <code>git bash</code> 或者 <code>git shell</code>来部署。<br><strong>解决方式：</strong><br>1) 将<strong>git</strong>的安装路径加入到环境变量中(windows下)。<br>2) 使用<strong>git</strong>提供的命令行工具(shell &amp; bash)来提交。</p>
-<h6 id="Q2：部署错误：Deployer-not-found-github"><a href="#Q2：部署错误：Deployer-not-found-github" class="headerlink" title="Q2：部署错误：Deployer not found: github"></a>Q2：部署错误：Deployer not found: github</h6><p><strong>遇错情景：</strong> 最近从next主题切换到新主题的时候部署时遇到这个问题。<br><strong>报错原因：</strong> 没有<code>hexo-deployer-git</code>这个东西，所以需要重新安装一次。<br><strong>注意事项：</strong> Hexo 3.0以前是使用的是<code>hexo-deployer-github</code>，3.0之后官方更改为<code>hexo-deployer-git</code><br><strong>解决方法：</strong> 重新安装</p>
-<blockquote>
-<p>npm install hexo-deployer-git –save</p>
+            <!-- excerpt --></p>
+<p>最近搞了一个Spring MVC的网站，使用的是JSP页面，在前端页面上，我希望做到，提交一个表单的同时不让用户点击其他的按钮，我希望能在提交数据的同时给出一个遮罩的loading动画，于是，上网找了很多插件，最后觉得找到了一个不错的，就是JQuery的showLoading插件。</p>
+<h6 id="先来一个效果图"><a href="#先来一个效果图" class="headerlink" title="先来一个效果图"></a>先来一个效果图</h6><p><img src="http://7xsegt.com1.z0.glb.clouddn.com/showLoading-1.png" alt="showLoadin图片加载失败"></p>
+<h6 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h6><ol>
+<li><a href="http://codepen.io/jasondavis/pen/fAzcI" target="_blank" rel="external">官方下载</a></li>
+<li>在你的项目中引入对应的资源，主要有以下两个文件<blockquote>
+<p>showLoading.css 和 jquery.showLoading.min.js</p>
 </blockquote>
-
+</li>
+<li><p>在页面中引入上面两个文件</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">"/css/showLoading.css"</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">media</span>=<span class="string">"screen"</span> /&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"/js/jquery/jquery.showLoading.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在你的页面中声明一个想要用来遮罩的容器，比如自己的一个div，如果需要全屏的话，推荐直接选择body标签即可。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span> <span class="attr">id</span>=<span class="string">"loading"</span>&gt;</span></span><br><span class="line"> ...</span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在JS中调用showLoading()和hideLoading()方法。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">jQuery('#loading').showLoading();</span><br><span class="line">jQuery('#loading').hideLoading();</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>修改Loading的动画图标，可以修改为自己的gif动画</p>
+<blockquote>
+<p>在showLoading.css中修改样式中的路径即可，如下：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">.loading-indicator &#123;</span><br><span class="line">	height: 80px;</span><br><span class="line">	width: 80px;</span><br><span class="line">	background: url( '/img/loading.gif' );  //修改此处即可。</span><br><span class="line">	background-repeat: no-repeat;</span><br><span class="line">	background-position: center center;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></blockquote>
+</li>
+</ol>
             
         </div>
     </div>
@@ -243,7 +259,7 @@
             <div class="post-footer-tags">
                 <span class="text-color-light text-small">标签</span><br/>
                 
-    <a class="tag tag--primary tag--small t-link" href="/tags/hexo/">hexo</a>
+    <a class="tag tag--primary tag--small t-link" href="/tags/jquery/">jquery</a> <a class="tag tag--primary tag--small t-link" href="/tags/showLoading/">showLoading</a>
 
             </div>
         
@@ -252,7 +268,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/05/05/JQuery加载动画showLoadingg插件使用心得/"  data-tooltip="JQuery showLoading插件使用心得">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">上一篇</span>
@@ -260,7 +276,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/04/02/二维码基础总结/" data-tooltip="二维码基础规范总结">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/04/15/Hexo常见问题-持续更新/" data-tooltip="Hexo FAQ(更新至2016-05-04)">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
                     <i class="fa fa-angle-right"></i>
@@ -275,17 +291,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -309,8 +325,8 @@
 
         
             
-                <div id="ds-thread" class="ds-thread" data-thread-key="2016/04/15/Hexo常见问题-持续更新/"
-     data-title="Hexo FAQ(更新至2016-05-04)" data-url="http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/">
+                <div id="ds-thread" class="ds-thread" data-thread-key="2016/05/05/JQuery加载动画showLoadingg插件使用心得/"
+     data-title="JQuery showLoading插件使用心得" data-url="http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
 </div>
 
             
@@ -334,7 +350,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/05/05/JQuery加载动画showLoadingg插件使用心得/"  data-tooltip="JQuery showLoading插件使用心得">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">上一篇</span>
@@ -342,7 +358,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/04/02/二维码基础总结/" data-tooltip="二维码基础规范总结">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/04/15/Hexo常见问题-持续更新/" data-tooltip="Hexo FAQ(更新至2016-05-04)">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
                     <i class="fa fa-angle-right"></i>
@@ -357,17 +373,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -393,17 +409,17 @@
                 <div id="share-options-bar" class="share-options-bar" data-behavior="3">
     <ul class="share-options">
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
                 <i class="fa fa-google-plus"></i><span class="">分享到 Google+</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
                 <i class="fa fa-facebook-official"></i><span>分享到 Facebook</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
                 <i class="fa fa-twitter"></i><span>分享到 Twitter</span>
             </a>
         </li>
