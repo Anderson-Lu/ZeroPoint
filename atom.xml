@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Anderson Lu&#39;s Blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-05-03T14:27:29.578Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Anderson Lu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo FAQ(更新至2016-04-15)</title>
+    <link href="http://yoursite.com/2016/04/15/Hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/"/>
+    <id>http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/</id>
+    <published>2016-04-15T12:55:11.000Z</published>
+    <updated>2016-05-03T14:27:29.578Z</updated>
+    
+    <content type="html">&lt;h6 id=&quot;Q1：部署错误：Error-spawn-git-ENOENT&quot;&gt;&lt;a href=&quot;#Q1：部署错误：Error-spawn-git-ENOENT&quot; class=&quot;headerlink&quot; title=&quot;Q1：部署错误：Error: spawn git ENOENT&quot;&gt;&lt;/a&gt;Q1：部署错误：Error: spawn git ENOENT&lt;/h6&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xsegt.com1.z0.glb.clouddn.com/xiaolutongxue%2Fimg%2F232323sadf.png&quot; alt=&quot;spawn git ENOENT&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;报错原因：&lt;/strong&gt; 没有使用 &lt;code&gt;git bash&lt;/code&gt; 或者 &lt;code&gt;git shell&lt;/code&gt;来部署。&lt;br&gt;&lt;strong&gt;解决方式：&lt;/strong&gt;&lt;br&gt;1) 将&lt;strong&gt;git&lt;/strong&gt;的安装路径加入到环境变量中(windows下)。&lt;br&gt;2) 使用&lt;strong&gt;git&lt;/strong&gt;提供的命令行工具(shell &amp;amp; bash)来提交。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h6 id=&quot;Q1：部署错误：Error-spawn-git-ENOENT&quot;&gt;&lt;a href=&quot;#Q1：部署错误：Error-spawn-git-ENOENT&quot; class=&quot;headerlink&quot; title=&quot;Q1：部署错误：Error: spawn git ENOENT&quot;&gt;&lt;/a&gt;Q1：部署错误：Error: spawn git ENOENT&lt;/h6&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>二维码基础规范总结</title>
+    <link href="http://yoursite.com/2016/04/02/%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2016/04/02/二维码基础总结/</id>
+    <published>2016-04-01T21:56:30.000Z</published>
+    <updated>2016-05-03T14:36:25.286Z</updated>
+    
+    <content type="html">&lt;p&gt;二维码是由DENSO公司开发的一种由两个维度的条形码构成的一种可识别编码。由JIS和ISO进行标准规范。更多&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt; 请阅读下面的链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://baike.baidu.com/link?url=A7RqsmmHIJ9nHxgsk_8eIgDfsXTnmc7pIdkF-Idw-672QJeIi32Xn1n1QqpQERv77FBp2tnAB0BAHVAXt8YFJQO6WW3A0WWQU1xmsYKUZPRWcoNOcJWuTNaOMG_VENi047KW5xaayV3UvPlhv6bgaq&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度-二维码&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/QR_code&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;维基百科-二维码&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&quot;什么是二维码&quot;&gt;&lt;a href=&quot;#什么是二维码&quot; class=&quot;headerlink&quot; title=&quot;什么是二维码&quot;&gt;&lt;/a&gt;什么是二维码&lt;/h5&gt;&lt;p&gt;二维码是一种双维度的矩阵编码。其具有的特点是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;高速读取(QR是英文”Quick Response”的缩写)&lt;/li&gt;
+&lt;li&gt;信息大容量与高密度&lt;/li&gt;
+&lt;li&gt;错误应答&lt;/li&gt;
+&lt;li&gt;可扩展&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;二维码的模型&quot;&gt;&lt;a href=&quot;#二维码的模型&quot; class=&quot;headerlink&quot; title=&quot;二维码的模型&quot;&gt;&lt;/a&gt;二维码的模型&lt;/h5&gt;&lt;p&gt;二维码具有两种模型，一种是初始化的原生模型，一种是被扩展了的模型。&lt;/p&gt;
+&lt;h5 id=&quot;二维码中可被编码的字符集&quot;&gt;&lt;a href=&quot;#二维码中可被编码的字符集&quot; class=&quot;headerlink&quot; title=&quot;二维码中可被编码的字符集&quot;&gt;&lt;/a&gt;二维码中可被编码的字符集&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;纯数字(0-9)&lt;br&gt;3个字符被编码为10bit的长度，理论上最长7098个字符(2.8KB)可以被存储在二维码中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;字母数字(0-9A-Z $%*+-./:)&lt;br&gt;两个字符被编码需要 11bit的长度，理论上最多4296个字符(2.8KB)可以被存储在二维码中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;8位字节数据&lt;br&gt;理论上最长可以容纳2953个字符。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;日文字符&lt;br&gt;一个日文字符需要13bit的长度，理论上最多可以存储1817个字符。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;二维码的容错性&quot;&gt;&lt;a href=&quot;#二维码的容错性&quot; class=&quot;headerlink&quot; title=&quot;二维码的容错性&quot;&gt;&lt;/a&gt;二维码的容错性&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;L级别： 至多7%的错误可以被纠正，及容错性。&lt;/li&gt;
+&lt;li&gt;M级别： 至多15%的错误可以被纠正。&lt;/li&gt;
+&lt;li&gt;Q级别： 至多25%的错误可以被纠正。&lt;/li&gt;
+&lt;li&gt;H级别： 至多30%的错误可以被纠正。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;二维码的版本&quot;&gt;&lt;a href=&quot;#二维码的版本&quot; class=&quot;headerlink&quot; title=&quot;二维码的版本&quot;&gt;&lt;/a&gt;二维码的版本&lt;/h5&gt;&lt;p&gt;二维码的版本即二维码的大小，从1到40。&lt;br&gt;版本1指的是用21*21的矩阵来存储信息，每加4个modules就增加一个版本，所以版本40指的是177*177的矩阵。&lt;/p&gt;
+&lt;h5 id=&quot;二维码的表示方式&quot;&gt;&lt;a href=&quot;#二维码的表示方式&quot; class=&quot;headerlink&quot; title=&quot;二维码的表示方式&quot;&gt;&lt;/a&gt;二维码的表示方式&lt;/h5&gt;&lt;p&gt;黑色表示二进制的“1”，白色表示二进制的“0”。&lt;a href=&quot;http://jingyan.baidu.com/article/86f4a73e520e3b37d6526981.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;更多原理性详细介绍&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;本文部分翻译自 &lt;a href=&quot;http://www.swetake.com/qrcode/qr1_en.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;How to create QRcode&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://osdn.jp/projects/qrcode/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Open Source QR Code Library&lt;/a&gt;&lt;br&gt;在接下来的短期内会将二维码的编码与解码的JAVA实现展示在新的博文中，欢迎阅读。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;二维码是由DENSO公司开发的一种由两个维度的条形码构成的一种可识别编码。由JIS和ISO进行标准规范。更多&lt;br&gt;
+    
+    </summary>
+    
+      <category term="二维码" scheme="http://yoursite.com/categories/%E4%BA%8C%E7%BB%B4%E7%A0%81/"/>
+    
+    
+      <category term="二维码" scheme="http://yoursite.com/tags/%E4%BA%8C%E7%BB%B4%E7%A0%81/"/>
+    
+      <category term="QR Code" scheme="http://yoursite.com/tags/QR-Code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从源码级别高度定制与优化Hexo-NexT主题</title>
+    <link href="http://yoursite.com/2016/03/31/%E4%BB%8E%E6%BA%90%E7%A0%81%E7%BA%A7%E5%88%AB%E9%AB%98%E5%BA%A6%E5%AE%9A%E5%88%B6%E4%B8%8E%E4%BC%98%E5%8C%96Hexo-NexT%E4%B8%BB%E9%A2%98/"/>
+    <id>http://yoursite.com/2016/03/31/从源码级别高度定制与优化Hexo-NexT主题/</id>
+    <published>2016-03-30T20:33:37.000Z</published>
+    <updated>2016-05-03T14:19:58.504Z</updated>
+    
+    <content type="html">&lt;p&gt;玩转了几天Hexo静态博客之后，发现可配置的东西基本上都已经配置过了，那还有什么地方可以优化呢？&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;突然之间，灵机一动，发现了另一个可以高度定制与优化Hexo主题的方法：从源码级别优化。&lt;/p&gt;
+&lt;h5 id=&quot;Hexo-NexT主题的文档结构&quot;&gt;&lt;a href=&quot;#Hexo-NexT主题的文档结构&quot; class=&quot;headerlink&quot; title=&quot;Hexo NexT主题的文档结构&quot;&gt;&lt;/a&gt;Hexo NexT主题的文档结构&lt;/h5&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;/languages   &lt;span class=&quot;comment&quot;&gt;#用来配置国际化语言版本，里边包含各种个配置像的文本翻译。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/layout      &lt;span class=&quot;comment&quot;&gt;#以swig文件来定义各种含有配置信息调用的布局&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/scripts     &lt;span class=&quot;comment&quot;&gt;#一些JS脚本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/&lt;span class=&quot;built_in&quot;&gt;source&lt;/span&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   /css      &lt;span class=&quot;comment&quot;&gt;#用来修改自定义样式，需要掌握一定的css语法。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   /fonts    &lt;span class=&quot;comment&quot;&gt;#定义字体文件，可以修改博客字体&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   /images   &lt;span class=&quot;comment&quot;&gt;#一些svg图片&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   /js       &lt;span class=&quot;comment&quot;&gt;#一些js脚本&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   /vendors  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   /404.html &lt;span class=&quot;comment&quot;&gt;#自定义的公益404页面&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/&lt;span class=&quot;built_in&quot;&gt;test&lt;/span&gt;        &lt;span class=&quot;comment&quot;&gt;#用于测试&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h5 id=&quot;CSS级别优化&quot;&gt;&lt;a href=&quot;#CSS级别优化&quot; class=&quot;headerlink&quot; title=&quot;CSS级别优化&quot;&gt;&lt;/a&gt;CSS级别优化&lt;/h5&gt;&lt;p&gt;通过修改主题中的CSS样式来进行优化，以下列出一些举例：&lt;/p&gt;
+&lt;h6 id=&quot;1-改变主页中博文标题的对齐方式&quot;&gt;&lt;a href=&quot;#1-改变主页中博文标题的对齐方式&quot; class=&quot;headerlink&quot; title=&quot;1.改变主页中博文标题的对齐方式&quot;&gt;&lt;/a&gt;1.改变主页中博文标题的对齐方式&lt;/h6&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;//themes/next/source/css/_variables/Mist.styl&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;//default is left,改变主页博文标题的对齐方式&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$site-meta-text-align    = left&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h6 id=&quot;2-显示配置过的网站副标题（针对Mist模式）&quot;&gt;&lt;a href=&quot;#2-显示配置过的网站副标题（针对Mist模式）&quot; class=&quot;headerlink&quot; title=&quot;2.显示配置过的网站副标题（针对Mist模式）&quot;&gt;&lt;/a&gt;2.显示配置过的网站副标题（针对Mist模式）&lt;/h6&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;//themes/next/source/css/_schemes/Mist/_logo.styl&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;.site-subtitle &amp;#123; display: none; &amp;#125;  //改变none为自己想要的值&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h6 id=&quot;3-改变菜单按钮的样式&quot;&gt;&lt;a href=&quot;#3-改变菜单按钮的样式&quot; class=&quot;headerlink&quot; title=&quot;3.改变菜单按钮的样式&quot;&gt;&lt;/a&gt;3.改变菜单按钮的样式&lt;/h6&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;//themes/next/source/css/_schemes/Mist/_menu.styl&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  .menu-item a &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    //...&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;amp;:hover &amp;#123; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		background: #003366; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		color: white;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		border-radius: 2px;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h6 id=&quot;4-改变网站头部样式&quot;&gt;&lt;a href=&quot;#4-改变网站头部样式&quot; class=&quot;headerlink&quot; title=&quot;4.改变网站头部样式&quot;&gt;&lt;/a&gt;4.改变网站头部样式&lt;/h6&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;//themes/next/source/css/_schemes/Mist/_header.styl&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h5 id=&quot;Swig级别优化&quot;&gt;&lt;a href=&quot;#Swig级别优化&quot; class=&quot;headerlink&quot; title=&quot;Swig级别优化&quot;&gt;&lt;/a&gt;Swig级别优化&lt;/h5&gt;&lt;h6 id=&quot;1-改变底部Footer相关描述&quot;&gt;&lt;a href=&quot;#1-改变底部Footer相关描述&quot; class=&quot;headerlink&quot; title=&quot;1.改变底部Footer相关描述&quot;&gt;&lt;/a&gt;1.改变底部Footer相关描述&lt;/h6&gt;&lt;p&gt;修改布局 ： themes/next/layout/_partials/footer.swig&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;如果你想问一些基本的配置，请访问Next 主题 Github 仓库。&lt;br&gt;如果你更牛逼，可以直接自定义新的或者修改原有的JS特效。&lt;/p&gt;
+&lt;p&gt;欢迎访问本人的优化结果： &lt;a href=&quot;http://www.luxueyan.me&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;小卢同学&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;玩转了几天Hexo静态博客之后，发现可配置的东西基本上都已经配置过了，那还有什么地方可以优化呢？
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>校招那些事</title>
+    <link href="http://yoursite.com/2016/03/29/%E6%A0%A1%E6%8B%9B%E9%82%A3%E4%BA%9B%E4%BA%8B/"/>
+    <id>http://yoursite.com/2016/03/29/校招那些事/</id>
+    <published>2016-03-29T15:07:25.000Z</published>
+    <updated>2016-05-03T14:03:52.008Z</updated>
+    
+    <content type="html">&lt;!-- excerpt --&gt;
+&lt;h5 id=&quot;实习&quot;&gt;&lt;a href=&quot;#实习&quot; class=&quot;headerlink&quot; title=&quot;实习&quot;&gt;&lt;/a&gt;实习&lt;/h5&gt;&lt;p&gt;因为在某外资知名企业实习了半年，没有去参加各种校园招聘而错过了秋招的机会，有时候心里想想还真是可惜啊，但是却不后悔。实习之于我是一个提升自己能力的好机会，很荣幸，能够在半年中提升了自己的视野，思考能力和专业技术水准，以及认识一些人，学会一些事。也许很多人会说：”你这是在浪费时间，既然你实习完后不在原公司待下来，又何必白白耗费大半年的时间呢？”，他们说的，有些地方确实是对的，对于很多人来说，也许早早就开溜了。然而我想得更多的，一是在这半年光景里努力提升自己的能力，二是我并不想半途而废或者知难而进，很多时候我想退出，然而每次出现这样的思绪时，我就反问自己：“难道是因为自己的能力不行而退出吗？”，“不，我不认为”，“难道要在这半途中放弃这个实习的机会吗？”，“不，我不想”，于是在无限的挣扎过后，我顺利地坚持到了最后，当然，最后依旧没有留在某企业。&lt;/p&gt;
+&lt;h5 id=&quot;春招-amp-宣讲会&quot;&gt;&lt;a href=&quot;#春招-amp-宣讲会&quot; class=&quot;headerlink&quot; title=&quot;春招 &amp;amp; 宣讲会&quot;&gt;&lt;/a&gt;春招 &amp;amp; 宣讲会&lt;/h5&gt;&lt;p&gt;2016年的三月，都说阳春三月，然而在祖国的南方沿海省份并没有，我依旧记得那十多天的回南天外出计划增添了多少阻碍，忽冷忽热，还夹杂着90%以上的空气湿度，这是多么影响心情的天气！然而春招依然在这段糟糕的时间开始了。&lt;/p&gt;
+&lt;p&gt;我面试过的企业并不算太多，确切地说是很少，每次我在中山大学的就业指导中心查看宣讲会信息，会把非互联网企业排除，会把初创公司排除，加上像BAT这种程序员所羡慕的国内大企早就在秋招中招满结束了，于是留下来的看得顺眼的企业就很少很少了。总的来说，到目前为止，参加了三次宣讲会。&lt;/p&gt;
+&lt;h6 id=&quot;面试一：广州某通信公司&quot;&gt;&lt;a href=&quot;#面试一：广州某通信公司&quot; class=&quot;headerlink&quot; title=&quot;面试一：广州某通信公司&quot;&gt;&lt;/a&gt;面试一：广州某通信公司&lt;/h6&gt;&lt;p&gt;记得这是在广工参加的宣讲会，主要介绍了什么大致已经忘光了，很快在宣讲会结束之后便进行笔试。当时看到笔试题(笔试题是关于JAVA的)，我嘴角微微上扬，成了全场第二个交卷的人。一是感觉题目简单得离谱，而且全部是关于编程语言的，连算法和数据结构这样的专业题都没有。很快，我就收到了面试通知，这场面试，三个面试官，一个是HR，一个是老总，一个应该是高技术的，让你自我介绍，然后问了一堆乱七八糟的问题，索性我都答完了，答得还算不错。于是乎就这样通过了面试，公司向我的邮箱发放了Offer。&lt;/p&gt;
+&lt;h6 id=&quot;面试二：深圳某软件企业&quot;&gt;&lt;a href=&quot;#面试二：深圳某软件企业&quot; class=&quot;headerlink&quot; title=&quot;面试二：深圳某软件企业&quot;&gt;&lt;/a&gt;面试二：深圳某软件企业&lt;/h6&gt;&lt;p&gt;我还清楚地记得这是在三月份进行的，阴雨天气，当时中午在网上逛了一圈，发现有个宣讲会，于是立即去了华工参加宣讲会，宣讲会的前段时间都在播放一段关于公司的大事记和工作环境，然后在大屏幕中出现了一个QR码，让你根据此前播放的内容回答问题，全答对了就有红包拿，好吧，我没认真看，一定答错了一些题目。&lt;br&gt;这次还是一样，宣讲会后直接进行笔试，不同的是，前面来了一套测试IQ的题目，看起来像考研或者考公务员里边的申论的题目，哎，虽然不喜欢这种题目，还是随便填填吧。之后又给了一套专业笔试题，这回有数据结构和算法的题目了，很明显，难度相对上一次宣讲会难了不少。不过很幸运，我还是很快就交卷走人了。就在回到学校吃饭的时候，哇靠，居然叫我回去参加面试，无奈之下，还向舍友借了一把伞，又回去参加面试了。&lt;br&gt;这次面试分为两轮，一轮HR面试，一轮技术面试。HR面试好像还挺专业，问了你一些发散思维，注意力以及团队协作的一些问题，但技术面挺水，面试的人看起来像老总，而且还问你是不是独生子女等奇葩的问题。很顺利面完了，到了晚上九点多，回校。&lt;br&gt;几天之后，我在参加第三个宣讲会结束后我接到了该公司的通知，我又拿到Offer了。&lt;/p&gt;
+&lt;h6 id=&quot;面试三：广州某网络集团&quot;&gt;&lt;a href=&quot;#面试三：广州某网络集团&quot; class=&quot;headerlink&quot; title=&quot;面试三：广州某网络集团&quot;&gt;&lt;/a&gt;面试三：广州某网络集团&lt;/h6&gt;&lt;p&gt;这次去中大参加了宣讲会，出乎意料的是还挺多人参加的，目测估计不下六七百号人参加了宣讲会。给我的第一个感觉就是排场大，于是上知乎搜了搜关于这个公司的评价，有好的，有不好的，当然还是不好的居多。宣讲会持续了挺长的时间，然后按照两笔一面的形式进行。&lt;/p&gt;
+&lt;p&gt;一笔的题目着实让我大吃一惊，考得全是些数学上的东西，我想啊，高数学的这么烂的我如何在这么多竞争者中脱颖而出呢？我绞尽脑汁，会的先做，不会的后做，实在不会的就凭直觉做。这让我想起参加宣讲会的时候旁边坐着的一个中大的学生，一个笔记本，满满的都是手写的面试题，我就想，这学霸真TM有耐心和毅力啊，而我居然在裸考！最后还是不管三七二十一，早早交卷走人了。&lt;/p&gt;
+&lt;p&gt;就在我以为没有机会的时候，公司发来了短信，叫我参加二笔，我有些闷了，额，居然过了一笔。好吧，那就去参加二笔，二笔中的人数比一笔的人数缩了至少八分之七，只剩下三四十个人了。签到的时候发现名单上全是中大、华工和暨大的，好吧，本校的就我一个，想想运气还是挺好的呢。二笔考的居然，居然全是C++的题目！我想做JAVA的，结果遇到了一份全是C++的卷子，好吧，我做就是了。但是后面几道关于算法的题目个人觉得还算不错。交卷，走人。&lt;/p&gt;
+&lt;p&gt;接下来的几天就是在等待中度过了，等了三天，然后又收到通知叫我去参加笔试了。哈哈，还是挺幸运地，顺利完成了面试。等待几天后，很幸运，又收到了Offer，这个Offer提供了一线互联网企业的薪水，好像挺诱人。&lt;/p&gt;
+&lt;h6 id=&quot;其他网申：无反应&quot;&gt;&lt;a href=&quot;#其他网申：无反应&quot; class=&quot;headerlink&quot; title=&quot;其他网申：无反应&quot;&gt;&lt;/a&gt;其他网申：无反应&lt;/h6&gt;&lt;p&gt;一个让我很懊恼的就是我往一些企业投递了简历，就像石沉大海，音信全无。想想也是无奈，我知道像某易这种公司会按学校来筛人，既然如此也只能另觅有缘的企业了。还有一个是某一家工资开的挺高的公司，网上笔试就被刷了，想想真是心酸，对于我这种从未复习过的裸考的人也只能如此了。&lt;/p&gt;
+&lt;h5 id=&quot;选择-amp-犹豫从症患者-amp-面试就是为了拒绝&quot;&gt;&lt;a href=&quot;#选择-amp-犹豫从症患者-amp-面试就是为了拒绝&quot; class=&quot;headerlink&quot; title=&quot;选择 &amp;amp; 犹豫从症患者 &amp;amp; 面试就是为了拒绝&quot;&gt;&lt;/a&gt;选择 &amp;amp; 犹豫从症患者 &amp;amp; 面试就是为了拒绝&lt;/h5&gt;&lt;p&gt;我想我还是比较幸运地，应聘的胜率比我的排位胜率(LOL排位赛的胜率)还要高。拿到第一个Offer的时候，我还在某公司实习，他们给出7K的月薪，最后还是拒绝了。第二个Offer开出的条件比第一个好一些，犹豫了两天之后又发了封邮件拒绝了。于是就有舍友说我面试就是为了拒绝，想想也只能呵呵一下了。然后是第三个Offer，又犹豫了几天，最后想想还是接受试试。&lt;/p&gt;
+&lt;h5 id=&quot;反思：为何不满足&quot;&gt;&lt;a href=&quot;#反思：为何不满足&quot; class=&quot;headerlink&quot; title=&quot;反思：为何不满足&quot;&gt;&lt;/a&gt;反思：为何不满足&lt;/h5&gt;&lt;p&gt;每次拒绝后我总在想，既然不想去，又何必参加他们的笔试和面试呢？&lt;br&gt;经过多次的思考，总结了几点原因：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;薪酬不符合要求&lt;/li&gt;
+&lt;li&gt;地点不符合要求&lt;/li&gt;
+&lt;li&gt;认为能找到更好的。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;说到底，就是自己的要求太高了。其实作为应届生来说，薪水真的很重要吗？我理想中的企业是BAT，然而好像目前而言不太可能了，退而求其次，前几年先攒攒工作经验，学习专业技能，拓宽职场上的人脉也就够了。至于福利方面，工作时长方面，我觉得就是自己的态度问题，很多企业你去百度一下，基本上没有好的评论，只要态度够好就不用在乎这些。我们身处在即将步入职场的阶段，不拼一把，怎么对得起自己？&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/7284d430775e&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;简书同步阅读&lt;/a&gt;&lt;/p&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在大四下学期这个即将离开校园的时候，择业与就业成了重中之重。从上学期的秋招开始，似乎就进入了校园生活的另一个阶段。在成为学校的大四老狗(当然也有很大一部分人已经脱离单身狗的行列了)之前大家都是以学习和生活为主，参加一些社团，到处去High，和几个舍友开黑到天亮，和几个同学讨论项目需求到深夜然后一起去远近闻名的某五路吃宵夜等等。然而在大四之后大家便更倾向于实习和找工作，或者读研，当然也有例外的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="职场" scheme="http://yoursite.com/categories/%E8%81%8C%E5%9C%BA/"/>
+    
+    
+      <category term="职场" scheme="http://yoursite.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo vs Jekyll</title>
+    <link href="http://yoursite.com/2016/03/28/Hexo-Jekyll%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%A8%8B%E5%BA%8F/"/>
+    <id>http://yoursite.com/2016/03/28/Hexo-Jekyll静态博客程序/</id>
+    <published>2016-03-28T09:07:05.000Z</published>
+    <updated>2016-05-03T14:22:06.294Z</updated>
+    
+    <content type="html">&lt;p&gt;之所以接触到Hexo以及Jekyll框架是因为之前一直有在写些博客，比如通过&lt;strong&gt;Github Pages&lt;/strong&gt;直接写的HTML静态博客(&lt;a href=&quot;http://andersonlu.github.io/ALBOG/&quot; target=&quot;_blank&quot;&gt;点击这里浏览我之前写过的一个博客&lt;/a&gt;)&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;但这种博客维护起来相当麻烦，有如下一些问题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;维护繁杂，加一篇日志链接往往需要改动很多HTML页面中的链接。&lt;/li&gt;
+&lt;li&gt;设计困难，非前端设计人员的通病，往往在界面设计以及效果实现上浪费很多时间。&lt;/li&gt;
+&lt;li&gt;不支持MD语法，写一篇博客相当于写一个HTML页面，相当累人。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h5 id=&quot;选择Hexo还是Jekyll&quot;&gt;&lt;a href=&quot;#选择Hexo还是Jekyll&quot; class=&quot;headerlink&quot; title=&quot;选择Hexo还是Jekyll&quot;&gt;&lt;/a&gt;选择Hexo还是Jekyll&lt;/h5&gt;&lt;p&gt;于是开始接触比较流行的一些静态博客框架，比较流行的有Jekyll，Hexo，Simple，Octopress，Pelican以及Logecho等等。这些静态程序可以说都有各自的好处，但最后我选择了Hexo来搭建自己的博客，和Jekyll相比，选择Hexo主要原因是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Jeky基于Ruby实现，安装Jeky需要搭建Ruby环境，在Windows搭建Ruby环境并不是被推荐的，而 Hexo基于NodeJs实现，在Windows上安装NodeJs开发环境简单。&lt;/li&gt;
+&lt;li&gt;Jekyll没有本地服务器，无法实现本地博文预览功能，需要上传到WEB容器中才能预览功能，而Hexo可以通过简单的命令实现本地的预览，并直接发布到WEB容器中实现同步。&lt;/li&gt;
+&lt;li&gt;比较直接的另一个原因是在网上查找了很多博客的主题，发现Jekyll官网提供的主题都不怎么好看(可能是个人原因)，而Hexo的主题看的比较顺眼。&lt;/li&gt;
+&lt;li&gt;两者都支持Markdown语法，这点我非常喜欢。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h5 id=&quot;Hexo博客开发过程&quot;&gt;&lt;a href=&quot;#Hexo博客开发过程&quot; class=&quot;headerlink&quot; title=&quot;Hexo博客开发过程&quot;&gt;&lt;/a&gt;Hexo博客开发过程&lt;/h5&gt;&lt;p&gt;就这样我在Windows环境下选择了Hexo来开发自己的个人博客，Hexo是一个很不错的静态博客程序，可以基于原生的主题高度优化自己的博客。选择Hexo后，折腾了两天，从环境搭建到部署以及域名绑定等全部搞好了，所以说对于一个普通的程序员，使用Hexo或者Jekyll开发博客是不具有难度的。&lt;/p&gt;
+&lt;h5 id=&quot;Hexo博客的开发与部署流程&quot;&gt;&lt;a href=&quot;#Hexo博客的开发与部署流程&quot; class=&quot;headerlink&quot; title=&quot;Hexo博客的开发与部署流程&quot;&gt;&lt;/a&gt;Hexo博客的开发与部署流程&lt;/h5&gt;&lt;p&gt;接下来简单阐述一下一个之前从未接触过Hexo的折腾党是如何在两天内搭建并部署的：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;NodeJs环境搭建，其实只要下载并安装&lt;a href=&quot;https://nodejs.org/en/&quot; target=&quot;_blank&quot;&gt;NodeJs&lt;/a&gt;就OK了。&lt;/li&gt;
+&lt;li&gt;Hexo环境搭建，其实只需要在Git Bash或者Power shell使用npm进行安装即可。&lt;/li&gt;
+&lt;li&gt;使用自己喜欢的Hexo主题，可以从官网下，或者其他地方。&lt;/li&gt;
+&lt;li&gt;配置Hexo，这里不详细介绍了，有兴趣的可以从网上搜索或者直接看我此分类下的博文。&lt;/li&gt;
+&lt;li&gt;部署到Gihub上。&lt;/li&gt;
+&lt;li&gt;注册并绑定自己的域名。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;当然，在这个过程中也碰到过许多的小问题，稍后会将其总结出来并发布。&lt;/p&gt;
+&lt;p&gt;相关链接：&lt;br&gt;&lt;a href=&quot;http://www.jianshu.com/p/ce1619874d34&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;简书同步阅读&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之所以接触到Hexo以及Jekyll框架是因为之前一直有在写些博客，比如通过&lt;strong&gt;Github Pages&lt;/strong&gt;直接写的HTML静态博客(&lt;a href=&quot;http://andersonlu.github.io/ALBOG/&quot; target=&quot;_blank&quot;&gt;点击这里浏览我之前写过的一个博客&lt;/a&gt;)&lt;br&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
