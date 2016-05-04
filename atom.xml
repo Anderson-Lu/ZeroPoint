@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-03T14:27:29.578Z</updated>
+  <updated>2016-05-04T03:59:21.285Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,15 +16,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo FAQ(更新至2016-04-15)</title>
+    <title>Hexo FAQ(更新至2016-05-04)</title>
     <link href="http://yoursite.com/2016/04/15/Hexo%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/"/>
     <id>http://yoursite.com/2016/04/15/Hexo常见问题-持续更新/</id>
     <published>2016-04-15T12:55:11.000Z</published>
-    <updated>2016-05-03T14:27:29.578Z</updated>
+    <updated>2016-05-04T03:59:21.285Z</updated>
     
     <content type="html">&lt;h6 id=&quot;Q1：部署错误：Error-spawn-git-ENOENT&quot;&gt;&lt;a href=&quot;#Q1：部署错误：Error-spawn-git-ENOENT&quot; class=&quot;headerlink&quot; title=&quot;Q1：部署错误：Error: spawn git ENOENT&quot;&gt;&lt;/a&gt;Q1：部署错误：Error: spawn git ENOENT&lt;/h6&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;http://7xsegt.com1.z0.glb.clouddn.com/xiaolutongxue%2Fimg%2F232323sadf.png&quot; alt=&quot;spawn git ENOENT&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;报错原因：&lt;/strong&gt; 没有使用 &lt;code&gt;git bash&lt;/code&gt; 或者 &lt;code&gt;git shell&lt;/code&gt;来部署。&lt;br&gt;&lt;strong&gt;解决方式：&lt;/strong&gt;&lt;br&gt;1) 将&lt;strong&gt;git&lt;/strong&gt;的安装路径加入到环境变量中(windows下)。&lt;br&gt;2) 使用&lt;strong&gt;git&lt;/strong&gt;提供的命令行工具(shell &amp;amp; bash)来提交。&lt;/p&gt;
+&lt;h6 id=&quot;Q2：部署错误：Deployer-not-found-github&quot;&gt;&lt;a href=&quot;#Q2：部署错误：Deployer-not-found-github&quot; class=&quot;headerlink&quot; title=&quot;Q2：部署错误：Deployer not found: github&quot;&gt;&lt;/a&gt;Q2：部署错误：Deployer not found: github&lt;/h6&gt;&lt;p&gt;&lt;strong&gt;遇错情景：&lt;/strong&gt; 最近从next主题切换到新主题的时候部署时遇到这个问题。&lt;br&gt;&lt;strong&gt;报错原因：&lt;/strong&gt; 没有&lt;code&gt;hexo-deployer-git&lt;/code&gt;这个东西，所以需要重新安装一次。&lt;br&gt;&lt;strong&gt;注意事项：&lt;/strong&gt; Hexo 3.0以前是使用的是&lt;code&gt;hexo-deployer-github&lt;/code&gt;，3.0之后官方更改为&lt;code&gt;hexo-deployer-git&lt;/code&gt;&lt;br&gt;&lt;strong&gt;解决方法：&lt;/strong&gt; 重新安装&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;npm install hexo-deployer-git –save&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
     
     <summary type="html">
