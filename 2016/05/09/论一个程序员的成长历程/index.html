@@ -6,27 +6,25 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Anderson Lu&#39;s Blog">
-    <title>JQuery showLoading插件使用心得 - Anderson Lu&#39;s Blog</title>
+    <title>论一个程序员的成长历程 - Anderson Lu&#39;s Blog</title>
     <meta name="author" content="Anderson Lu">
     
-        <meta name="keywords" content="Anderson,luxueyan.me,">
+        <meta name="keywords" content="Anderson,luxueyan.me,随笔,程序员">
     
     
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="主要介绍了JQuery的showLoading插件的使用方法">
+    <meta name="description" content="一个应届毕业生对程序人生的思考…">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="JQuery showLoading插件使用心得">
-<meta property="og:url" content="http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/index.html">
+<meta property="og:title" content="论一个程序员的成长历程">
+<meta property="og:url" content="http://yoursite.com/2016/05/09/论一个程序员的成长历程/index.html">
 <meta property="og:site_name" content="Anderson Lu's Blog">
-<meta property="og:description" content="主要介绍了JQuery的showLoading插件的使用方法">
-<meta property="og:image" content="http://7xsegt.com1.z0.glb.clouddn.com/showLoading-1.png">
-<meta property="og:updated_time" content="2016-05-04T14:06:36.543Z">
+<meta property="og:description" content="一个应届毕业生对程序人生的思考…">
+<meta property="og:updated_time" content="2016-05-08T16:06:18.768Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JQuery showLoading插件使用心得">
-<meta name="twitter:description" content="主要介绍了JQuery的showLoading插件的使用方法">
-<meta name="twitter:image" content="http://7xsegt.com1.z0.glb.clouddn.com/showLoading-1.png">
+<meta name="twitter:title" content="论一个程序员的成长历程">
+<meta name="twitter:description" content="一个应届毕业生对程序人生的思考…">
     
     
         
@@ -35,9 +33,12 @@
         <meta property="og:image" content="http://7xsegt.com1.z0.glb.clouddn.com/avatar.png"/>
     
     
-        <meta property="og:image" content="http://7xsegt.com1.z0.glb.clouddn.com/JQuery"/>
-        <meta class="swiftype" name="image" data-type="enum" content="http://7xsegt.com1.z0.glb.clouddn.com/JQuery" />
+        <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1784374-fbbba6c336e92dd9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/100"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://upload-images.jianshu.io/upload_images/1784374-fbbba6c336e92dd9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/100" />
     
+    
+        <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1784374-fbbba6c336e92dd9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/100"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://upload-images.jianshu.io/upload_images/1784374-fbbba6c336e92dd9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/100" />
     
     
     <!--STYLES-->
@@ -195,62 +196,57 @@
 </nav>
 
             
+        <div class="post-header-cover
+                    text-center
+                    "
+             style="background-image:url('http://upload-images.jianshu.io/upload_images/1784374-fbbba6c336e92dd9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/100');"
+             data-behavior="3">
+            
+                <div class="post-header main-content-wrap text-center">
+    
+        <h1 class="post-title" itemprop="headline">
+            论一个程序员的成长历程
+        </h1>
+    
+    <div class="post-meta">
+    <time itemprop="datePublished" content="Mon May 09 2016 07:53:05 GMT+0800">
+	
+		    2016/05/09 07:53:05
+    	
+    </time>
+    
+        <span>发布在 </span>
+        
+    <a class="category-link" href="/categories/随笔/">随笔</a>
+
+
+    
+</div>
+</div>
+            
+        </div>
+
             <div id="main" data-behavior="3"
-                 class="
+                 class="hasCover
                         hasCoverMetaIn
                         ">
                 
 <article class="post" itemscope itemType="http://schema.org/BlogPosting">
     
     
-        <div class="post-header main-content-wrap text-left">
-    
-        <h1 class="post-title" itemprop="headline">
-            JQuery showLoading插件使用心得
-        </h1>
-    
-    <div class="post-meta">
-    <time itemprop="datePublished" content="Thu May 05 2016 05:32:11 GMT+0800">
-	
-		    2016/05/05 05:32:11
-    	
-    </time>
-    
-        <span>发布在 </span>
-        
-    <a class="category-link" href="/categories/jquery/">jquery</a>
-
-
-    
-</div>
-</div>
-    
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <!-- excerpt --></p>
-<p>最近搞了一个Spring MVC的网站，使用的是JSP页面，在前端页面上，我希望做到，提交一个表单的同时不让用户点击其他的按钮，我希望能在提交数据的同时给出一个遮罩的loading动画，于是，上网找了很多插件，最后觉得找到了一个不错的，就是JQuery的showLoading插件。</p>
-<h6 id="先来一个效果图"><a href="#先来一个效果图" class="headerlink" title="先来一个效果图"></a>先来一个效果图</h6><p><img src="http://7xsegt.com1.z0.glb.clouddn.com/showLoading-1.png" alt="showLoadin图片加载失败"></p>
-<h6 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h6><ol>
-<li><a href="http://codepen.io/jasondavis/pen/fAzcI" target="_blank" rel="external">官方下载</a></li>
-<li>在你的项目中引入对应的资源，主要有以下两个文件<blockquote>
-<p>showLoading.css 和 jquery.showLoading.min.js</p>
-</blockquote>
-</li>
-<li><p>在页面中引入上面两个文件</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">"/css/showLoading.css"</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">media</span>=<span class="string">"screen"</span> /&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"/js/jquery/jquery.showLoading.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在你的页面中声明一个想要用来遮罩的容器，比如自己的一个div，如果需要全屏的话，推荐直接选择body标签即可。</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span> <span class="attr">id</span>=<span class="string">"loading"</span>&gt;</span></span><br><span class="line"> ...</span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在JS中调用showLoading()和hideLoading()方法。</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">jQuery('#loading').showLoading();</span><br><span class="line">jQuery('#loading').hideLoading();</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>修改Loading的动画图标，可以修改为自己的gif动画</p>
+            <!-- excerpt -->
+<p>我很羡慕那些很小就学会编程的人，这些人经常在童年或者初中开始就精通各种编程语言，大学之前就把所有该学的东西都学完了。也许是对于技术的痴迷，总觉得代码与我相见恨晚。和许许多多的在应试教育下的人一样，我也是在高考后才算真正的接触到电脑，接触到编程，那是在四年前。</p>
+<p>我很清楚的记得当时学院的一门课程叫做《面向对象程序设计基础》，学的是C++的语法，对于刚接触编程的人来说，语法并不是最难的。让我最不适应的，是写代码的那种思维，或者说编程思想。我还记得学校机房里的ⅤC6.0那个丑陋的界面，但不可否认的是，我用那个丑陋的编译器写了一学期的代码，心潮澎湃。很多地方不理解，我就找着课本一个一个字符的敲上去。</p>
+<p>于是，语法学习得差不多了，我就开始搞起其他的东西了。比如具有UI界面的基于C++的MFC应用程序，当时我搞了个计算器的小程序，心里乐开了花，满满的成就感。成就感是一件很奇葩的东西，能让你产生兴奋，还能激发你的兴趣。之后，又陆陆续续学了C#和Java。也许是太过痴迷，也许是太过迷恋那种编程带来的成就与自豪，我记得有段时间我的QQ空间中一大段的说说，日志，相册全都是关于自己开发出来的小东西。时间久了，我渐渐的发觉自己这样的生活未免太过单调，太过无知了，那些东西在现在看来简直一点技术难度都没有。</p>
+<p>没错，有个词说得挺准，那就是装逼。不是本专业的人看了自己搞的那些东西，就会觉得特牛逼，而本专业的人看了，若是不懂，就会觉得特装逼，若懂，就会觉得这些个东西，人人都会。很奇怪的是，我个人认为，装逼是程序员成长路上的必经之路。比如你说你做过一个项目，会什么框架，会什么语言，但是只要稍微问问具体框架是怎么实现的或一些其他稍微深层次一点的问题，要么立马答不上来了，要么就不懂装懂地胡乱说一通来提高自己的逼格。装逼，想想也就是说，学的东西很多，知道怎么用，但只知道其中的一些皮毛，其余的啥都不懂。我曾看过一篇文章，管这样的人叫劣质程序员。这样的程序员永远只能在软件行业的最底层生存，因为他学会的那些，永远只是最基础的。所以我们经历了这个时期后，就要努力地摆脱劣质的本质。</p>
+<p>我算是幸运的，我觉得我在Java方向上已经不再是劣质程序员了。我有自己的目标：全栈。何谓全栈？就是从前端到后台，从数据库到维护部署，样样精通的。显然，距离这个目标还差很远。脱离了装逼时期的我对技术的求知欲进一步提高了。现在我所认为的，所确信的就是那些你能后轻易实现出来的东西根本就没有任何难度，是不具备牛逼资格的。好在从两次企业实习中见识到了很多牛逼的人，从他们之中，我领悟到了修正后的学习方法。所以，在这个阶段的程序员已经具备了开发的能力，比如在一个星期内学习并使用之前完全没接触过的东西来开发项目，这是一种学习能力。如果你没用过Groovy，那你是否能在几天之内掌握构建工具Gradle并集成各种尚未使用过的Springboot，你能否在很短的时间内掌握Ruby，Lua，Python，Scala等等。所以在这个阶段，学习能力是你能否在软件生存下来的最大因素。当然，我还处在这个阶段中。</p>
+<p>接下来的阶段，就是真正的牛逼阶段了。要么当上管理层，比如项目经理之类的，要么就以技术为线，要么专家，要么全栈。我很崇拜张小龙这样的人，为人低调，但是实打实的技术大牛。而现在回想以前的自己，或是当前周围的人，该装逼的还在装逼，只是阶段不同，心态也不同了。</p>
+<p>好了，很久没有在简书上写心得了，今天赶了半天毕业论文突然心血来潮，索性就手抖笔滑写下了本文。但愿没有能力装逼的你学会装逼，有装逼能力的你学会摆脱装逼。</p>
 <blockquote>
-<p>在showLoading.css中修改样式中的路径即可，如下：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">.loading-indicator &#123;</span><br><span class="line">	height: 80px;</span><br><span class="line">	width: 80px;</span><br><span class="line">	background: url( '/img/loading.gif' );  //修改此处即可。</span><br><span class="line">	background-repeat: no-repeat;</span><br><span class="line">	background-position: center center;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></blockquote>
-</li>
-</ol>
+<p><a href="http://www.jianshu.com/p/48f96af93e66" target="_blank" rel="external">简书同步阅读</a></p>
+</blockquote>
             
         </div>
     </div>
@@ -259,7 +255,7 @@
             <div class="post-footer-tags">
                 <span class="text-color-light text-small">标签</span><br/>
                 
-    <a class="tag tag--primary tag--small t-link" href="/tags/jquery/">jquery</a> <a class="tag tag--primary tag--small t-link" href="/tags/showLoading/">showLoading</a>
+    <a class="tag tag--primary tag--small t-link" href="/tags/成长/">成长</a> <a class="tag tag--primary tag--small t-link" href="/tags/职场/">职场</a> <a class="tag tag--primary tag--small t-link" href="/tags/随笔/">随笔</a>
 
             </div>
         
@@ -268,7 +264,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/05/09/论一个程序员的成长历程/"  data-tooltip="论一个程序员的成长历程">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">上一篇</span>
@@ -276,7 +272,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/04/15/Hexo常见问题-持续更新/" data-tooltip="Hexo FAQ(更新至2016-05-04)">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/05/05/JQuery加载动画showLoadingg插件使用心得/" data-tooltip="JQuery showLoading插件使用心得">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
                     <i class="fa fa-angle-right"></i>
@@ -291,17 +287,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/05/09/论一个程序员的成长历程/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/05/09/论一个程序员的成长历程/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/05/09/论一个程序员的成长历程/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -325,8 +321,8 @@
 
         
             
-                <div id="ds-thread" class="ds-thread" data-thread-key="2016/05/05/JQuery加载动画showLoadingg插件使用心得/"
-     data-title="JQuery showLoading插件使用心得" data-url="http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
+                <div id="ds-thread" class="ds-thread" data-thread-key="2016/05/09/论一个程序员的成长历程/"
+     data-title="论一个程序员的成长历程" data-url="http://yoursite.com/2016/05/09/论一个程序员的成长历程/">
 </div>
 
             
@@ -350,7 +346,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/05/09/论一个程序员的成长历程/"  data-tooltip="论一个程序员的成长历程">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">上一篇</span>
@@ -358,7 +354,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/04/15/Hexo常见问题-持续更新/" data-tooltip="Hexo FAQ(更新至2016-05-04)">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/05/05/JQuery加载动画showLoadingg插件使用心得/" data-tooltip="JQuery showLoading插件使用心得">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">下一篇</span>
                     <i class="fa fa-angle-right"></i>
@@ -373,17 +369,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/05/09/论一个程序员的成长历程/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/05/09/论一个程序员的成长历程/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/05/09/论一个程序员的成长历程/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -409,17 +405,17 @@
                 <div id="share-options-bar" class="share-options-bar" data-behavior="3">
     <ul class="share-options">
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://yoursite.com/2016/05/09/论一个程序员的成长历程/">
                 <i class="fa fa-google-plus"></i><span class="">分享到 Google+</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2016/05/09/论一个程序员的成长历程/">
                 <i class="fa fa-facebook-official"></i><span>分享到 Facebook</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/05/05/JQuery加载动画showLoadingg插件使用心得/">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2016/05/09/论一个程序员的成长历程/">
                 <i class="fa fa-twitter"></i><span>分享到 Twitter</span>
             </a>
         </li>
